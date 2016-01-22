@@ -1,0 +1,17 @@
+{
+    "name": "fontis/customergroupaccess-mage2",
+    "description": "Provides a convenience class for implementing customer group based access in your Magento 2 extension.",
+    "type": "library",
+    "license": "OSL-3.0",
+    "require": {
+        "php": "~5.6.0|~7.0.0",
+        "magento/framework": "100.*",
+        "magento/module-customer": "100.*",
+        "magento/module-store": "100.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fontis\\CustomerGroupAccess\\": "src"
+        }
+    }
+}
